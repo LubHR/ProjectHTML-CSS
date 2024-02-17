@@ -183,7 +183,7 @@ header>.right>p{
 /*-------------------Three----------------*/
 .three{
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     background-color: #19191B;
     display: flex;
     flex-direction: column;
@@ -253,7 +253,7 @@ header>.right>p{
 /*-------------------Four-------------------*/
 .four{
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     background-color: #19191B;
     display: flex;
     flex-direction: column;
