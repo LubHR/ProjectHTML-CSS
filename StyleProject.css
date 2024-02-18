@@ -97,12 +97,13 @@ header>.right>p{
 .one>.left>h1{
     width: 70%;
     color: white;
-    font-size:  10vh;
+    font-size:  8vh;
     margin: 0;
 }
 .one>.left>p{
     color: rgba(255, 255, 255, 0.70);
     width: 75%;
+    font-size: 2vh;
     line-height: 27px;
 }
 .one>.left>p, h1{
@@ -150,9 +151,6 @@ header>.right>p{
     font-size: 6vh;
 }
 .two>.up>.right>p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-family: "Lato", sans-serif;
     font-weight: 300;
@@ -161,13 +159,17 @@ header>.right>p{
 .two>.up>.left{
     display: flex;
     width: 45vw;
-    height: 14vh;
+    height: 20vh;
+    flex-wrap: wrap;
 }
 .two>.up>.right{
-    margin-left: 10vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10vh;
     width: 45vw;
-    height: 14vh;
+    height: 19vh;
 }
 .two>.down{
     margin-top: 3vh;
