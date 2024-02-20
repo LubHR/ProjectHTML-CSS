@@ -1,0 +1,168 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    header > .center {
+        display: none;
+    }
+
+    header > .right {
+        display: none;
+    }
+
+    header > .left {
+        margin-left: 10vh;
+    }
+
+    header > .left > img {
+        width: 70%;
+        margin: 0;
+    }
+
+    .one {
+        height: 120vh;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .one > .left {
+        margin-top: 6vh;
+        width: 80vw;
+    }
+
+    .one > .left > h1 {
+        font-size: 6vh;
+    }
+
+    .one > .left > p {
+        width: 100%;
+        margin-top: 6vh;
+    }
+
+    .one > .left > .button {
+        width: 20vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vh;
+    }
+
+    .one > .left > .button > a {
+        font-size: 2vh;
+        margin-left: 0;
+    }
+
+    .one > .rightimg {
+        width: 100vw;
+    }
+
+    .two {
+        height: 100vh;
+    }
+
+    .two > .up {
+        height: 40vh;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .two > .up > .right {
+        width: 90vw;
+        margin: 0;
+    }
+
+    .two > .up > .left > h1 {
+        font-size: 5vh;
+    }
+
+    .two > .up > .left {
+        width: 90vw;
+
+    }
+
+    .two > .down {
+        height: 30vh;
+        margin: 0;
+    }
+
+    .two > .down > img {
+        width: 90%;
+    }
+
+    .three {
+        height: 230vh;
+        flex-wrap: wrap;
+    }
+
+    .three > .up {
+        height: 20vh;
+        width: 80vw;
+    }
+
+    .three > .up > h1 {
+        text-align: left;
+    }
+
+    .three > .down {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .three > .down > .box {
+        width: 80vw;
+        height: 35vh;
+        margin: 4vh;
+    }
+
+    .three > .down > .box > .icons {
+        top: 4vh
+    }
+
+    .four > .text {
+        height: 25vh;
+        align-items: center;
+    }
+
+    .five {
+        height: 60vh;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .five > .text {
+        margin: 4vh;
+        width: 90vw;
+    }
+
+    .five > .button {
+        width: 30vw;
+        height: 5vh;
+        margin: 4vh;
+    }
+
+    .five > .button > a {
+        font-size: 2vh;
+    }
+
+    footer {
+        height: 70vh;
+    }
+    footer > .flex {
+        flex-direction: column;
+    }
+    footer > .flex > .box1 {
+        width: 40vw;
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+    footer > .flex > .box1:after {
+        content: "Servic" "Privacy Policy";
+        width: 90vw;
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        text-align: center;
+    }
+    footer > .flex > .box1 > img {
+        width: 15%;
+    }
+}
